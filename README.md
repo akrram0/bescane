@@ -77,17 +77,20 @@ cd bescane
 # Install dev dependencies (only TypeScript + @types/node)
 pnpm install
 
-# Build
+# Build the project
 pnpm run build
 
-# Run the scanner
-pnpm run start
+# Link the tool globally on your system
+pnpm add -g .
+
+# Now you can run it from ANY directory on your machine!
+bescane
 ```
 
 ### JSON Output
 
 ```bash
-pnpm run start --json
+bescane --json
 ```
 
 Returns machine-readable JSON with all discovered tools, versions, paths, and disk usage.

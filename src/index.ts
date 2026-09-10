@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { scanners } from './tools';
 import { ScannedDevTool } from './types';
 import { PathDiscoveryScanner } from './tools/pathDiscovery';
